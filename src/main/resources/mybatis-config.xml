@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+	<!-- 设置相关信息,需放在最前面 -->
+	<settings>
+		<setting name="logImpl" value="log4j"/>
+	</settings>		
+	
+	<!-- 设置实体类别名 -->
+	<typeAliases>
+		<!-- <typeAlias type="entity.THouse" alias="THouse" /> --> 
+		<package name="com.cn.hnust.pojo" />
+	</typeAliases>
+	
+	
+	
+</configuration> 
